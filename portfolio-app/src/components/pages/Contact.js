@@ -58,7 +58,7 @@ function Contact() {
             setErrorMessage('Please enter message!');
             return;
         }
-        alert(`Hello ${name}`);
+        alert(`Submitted successfully! Thanks ${name}`);
 
         // If everything goes according to plan, we want to clear out the input after a successful registration.
         setName('');

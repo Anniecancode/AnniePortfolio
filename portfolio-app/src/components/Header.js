@@ -10,49 +10,37 @@ function Header({ currentPage, handlePageChange}) {
             <h1>Annie Zhang</h1>
 
             <ul>
-                <li>
-                    <a
-                    href="#Home"
-                    onClick = {() => handlePageChange('Home')}
-                    // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-                    // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                    className = {currentPage === 'Home' ? 'nav-link active' : 'nav-link' }
-                    > 
-                    Home 
-                    </a>
+                <li
+                onClick = {() => handlePageChange('Home')}
+                // This is a conditional (ternary) operator that checks to see if the current page is "Home"
+                // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+                className = {currentPage === 'Home' ? 'nav-link active' : 'nav-link' }
+                > 
+                Home                    
                 </li>
-                <li>
-                    <a
-                    href="#Portfolio"
-                    onClick = {() => handlePageChange('Portfolio')}
-                    // This is a conditional (ternary) operator that checks to see if the current page is "Portfolio"
-                    // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                    className = {currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link' }
-                    > 
-                    Portfolio 
-                    </a>
+                <li
+                onClick = {() => handlePageChange('Portfolio')}
+                // This is a conditional (ternary) operator that checks to see if the current page is "Portfolio"
+                // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+                className = {currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link' }
+                > 
+                Portfolio                    
                 </li>
-                <li>
-                    <a
-                    href="#Contact"
-                    onClick = {() => handlePageChange('Contact')}
-                    // This is a conditional (ternary) operator that checks to see if the current page is "Contact"
-                    // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                    className = {currentPage === 'Contact' ? 'nav-link active' : 'nav-link' }
-                    > 
-                    Contact 
-                    </a>
+                <li
+                onClick = {() => handlePageChange('Contact')}
+                // This is a conditional (ternary) operator that checks to see if the current page is "Contact"
+                // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+                className = {currentPage === 'Contact' ? 'nav-link active' : 'nav-link' }
+                > 
+                Contact 
                 </li>
-                <li>
-                    <a
-                    href="#Resume"
-                    onClick = {() => handlePageChange('Resume')}
-                    // This is a conditional (ternary) operator that checks to see if the current page is "Resume"
-                    // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                    className = {currentPage === 'Resume' ? 'nav-link active' : 'nav-link' }
-                    > 
-                    Resume 
-                    </a>
+                <li                  
+                onClick = {() => handlePageChange('Resume')}
+                // This is a conditional (ternary) operator that checks to see if the current page is "Resume"
+                // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+                className = {currentPage === 'Resume' ? 'nav-link active' : 'nav-link' }
+                > 
+                Resume                     
                 </li>
             </ul>
 

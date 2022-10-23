@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Anniecancode/AnniePortfolio/issues"
   },
-  "homepage": "https://github.com/Anniecancode/AnniePortfolio#readme"
+  "homepage": "https://github.com/Anniecancode/AnniePortfolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
 }

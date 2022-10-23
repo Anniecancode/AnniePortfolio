@@ -3,6 +3,20 @@ import React, { useState } from 'react';
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../../utils/helpers';
 
+// Styles
+const Styles = {
+    form: {
+        margin: '20px'
+    },
+    input: {
+        display: 'block',
+        marginTop: '5px',
+        marginBottom: '5px',
+        width: '100%'
+    },
+}
+
+
 function Form() {
     // Create state variables for the fields in the form
     // We are also setting their initial values to an empty string
@@ -53,25 +67,26 @@ function Form() {
         setErrorMessage('');
     };
 
+
     return (
         <div>
             <p>Contact</p>
-            <form className="form">
-                <input
+            <form style = { Styles.form }>
+                <input style = { Styles.input }
                     value={name}
                     name="name"
                     onChange={handleInputChange}
                     type="text"
                     placeholder="name"
                 />
-                <input
+                <input style = { Styles.input }
                     value={email}
                     name="email"
                     onChange={handleInputChange}
                     type="email"
                     placeholder="email"
                 />
-                <input
+                <input style = { Styles.input }
                     value={message}
                     name="message"
                     onChange={handleInputChange}

@@ -17,7 +17,7 @@ const Styles = {
 }
 
 
-function Form() {
+function Contact() {
     // Create state variables for the fields in the form
     // We are also setting their initial values to an empty string
     const [name, setName] = useState('');
@@ -104,4 +104,4 @@ function Form() {
     );
 }
 
-export default Form;
+export default Contact;

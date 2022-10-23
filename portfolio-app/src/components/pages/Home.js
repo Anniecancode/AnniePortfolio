@@ -4,8 +4,6 @@ export default function Home() {
     return (
         <div>
 
-            <h1>Annie Zhang</h1>
-
             <h2 id="Who is Annie">About Me</h2>
 
             <img src="images/IMG_1.jpg" alt="Annie's selfie" />
@@ -16,12 +14,6 @@ export default function Home() {
                My mini projects can be found in "Annie's Works" section below,  please feel free to check on them.
             </p>
             <p>My contact details can be found below.</p>
-
-            <ul>
-                <li>0400 000 000</li>
-                <li><a href="#contact"> anniez.wow@gmail.com</a></li>
-                <li><a href="https://github.com/Anniecancode">Github</a></li>
-                </ul>
 
         </div>                           
     )

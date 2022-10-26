@@ -10,6 +10,8 @@ export default function Home() {
     return (
         <div>
 
+            <br></br> 
+
             <h2>About Me</h2>
 
             <img src={require('../../assets/images/IMG_1.jpg')} alt="Annie's selfie" 
@@ -22,6 +24,10 @@ export default function Home() {
             </p>
             <p>My contact details can be found below.</p>
 
+            <br></br>
+            <br></br>
+
         </div>                           
     )
 }
+

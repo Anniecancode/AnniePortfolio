@@ -79,7 +79,11 @@ function Contact() {
 
     return (
         <div>
+
+            <br></br>
+
             <h2>Contact</h2>
+
             <form style = { styles.form }>
                 <input style = { styles.input }
                     value={name}
@@ -110,6 +114,10 @@ function Contact() {
                     <p className="error-text">{errorMessage}</p>
                 </div>
             )}
+            
+            <br></br>
+            <br></br>
+            
         </div>
     );
 }

@@ -1,11 +1,12 @@
 import React from "react";
+import '../assets/style.css';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 
 function Header({ currentPage, handlePageChange}) {
     return (
-        <div>
+        <header>
 
             <h1>Annie Zhang</h1>
 
@@ -14,7 +15,7 @@ function Header({ currentPage, handlePageChange}) {
                 onClick = {() => handlePageChange('Home')}
                 // This is a conditional (ternary) operator that checks to see if the current page is "Home"
                 // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                className = {currentPage === 'Home' ? 'nav-link active' : 'nav-link' }
+                className = {currentPage === 'Home' ? 'li-active' : 'li' }
                 > 
                 Home                    
                 </li>
@@ -22,7 +23,7 @@ function Header({ currentPage, handlePageChange}) {
                 onClick = {() => handlePageChange('Portfolio')}
                 // This is a conditional (ternary) operator that checks to see if the current page is "Portfolio"
                 // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                className = {currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link' }
+                className = {currentPage === 'Portfolio' ? 'li-active' : 'li' }
                 > 
                 Portfolio                    
                 </li>
@@ -30,7 +31,7 @@ function Header({ currentPage, handlePageChange}) {
                 onClick = {() => handlePageChange('Contact')}
                 // This is a conditional (ternary) operator that checks to see if the current page is "Contact"
                 // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                className = {currentPage === 'Contact' ? 'nav-link active' : 'nav-link' }
+                className = {currentPage === 'Contact' ? 'li-active' : 'li' }
                 > 
                 Contact 
                 </li>
@@ -38,13 +39,13 @@ function Header({ currentPage, handlePageChange}) {
                 onClick = {() => handlePageChange('Resume')}
                 // This is a conditional (ternary) operator that checks to see if the current page is "Resume"
                 // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                className = {currentPage === 'Resume' ? 'nav-link active' : 'nav-link' }
+                className = {currentPage === 'Resume' ? 'li-active' : 'li' }
                 > 
                 Resume                     
                 </li>
             </ul>
 
-        </div> 
+        </header> 
     )
 }
 

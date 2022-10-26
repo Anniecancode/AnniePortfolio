@@ -4,16 +4,25 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
 // Styles
-const Styles = {
+const styles = {
     form: {
         margin: '20px'
     },
     input: {
         display: 'block',
-        marginTop: '5px',
-        marginBottom: '5px',
-        width: '100%'
+        marginTop: '10px',
+        marginBottom: '10px',
+        width: '50%'
     },
+    message: {
+        rows: 4
+    },
+    button: {
+        backgroundColor: 'rgb(19, 98, 135)',
+        color: 'hsl(0, 0%, 100%)',
+        borderRadius: '50px',
+        marginTop: '5px'
+    }
 }
 
 
@@ -70,30 +79,31 @@ function Contact() {
 
     return (
         <div>
-            <p>Contact</p>
-            <form style = { Styles.form }>
-                <input style = { Styles.input }
+            <h2>Contact</h2>
+            <form style = { styles.form }>
+                <input style = { styles.input }
                     value={name}
                     name="name"
                     onChange={handleInputChange}
                     type="text"
                     placeholder="name"
                 />
-                <input style = { Styles.input }
+                <input style = { styles.input }
                     value={email}
                     name="email"
                     onChange={handleInputChange}
                     type="email"
                     placeholder="email"
                 />
-                <input style = { Styles.input }
+                <input style = { styles.input }
                     value={message}
                     name="message"
                     onChange={handleInputChange}
                     type="text"
                     placeholder="message"
                 />
-                <button type="button" onClick={handleFormSubmit}>Submit</button>
+                <button type="button" onClick={handleFormSubmit}
+                style={styles.button}> Submit </button>
             </form>
             {errorMessage && (
                 <div>

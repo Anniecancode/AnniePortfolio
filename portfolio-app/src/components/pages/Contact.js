@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../../assets/style.css';
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../../utils/helpers';
@@ -117,7 +118,7 @@ function Contact() {
             
             <br></br>
             <br></br>
-            
+
         </div>
     );
 }

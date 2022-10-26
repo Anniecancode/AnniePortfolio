@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../../assets/style.css';
 
 function Portfolio() {
     return ( 
@@ -111,7 +111,7 @@ function Portfolio() {
 
             <br></br>
             <br></br>
-                 
+
         </div>
 
     )

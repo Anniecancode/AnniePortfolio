@@ -43,8 +43,7 @@ h2 {
 }
 
 p {
-    font-size: var(--third);
-    color: var(--blue);  
+    font-size: var(--third); 
 }
 
 ul {
@@ -176,6 +175,12 @@ ul {
     -webkit-transition-delay: .2s;
     transition-delay: .2s;
 }
+
+@media screen and (max-width:768px) {
+    .section {flex-direction: column;}
+       
+}
+
 
 
 

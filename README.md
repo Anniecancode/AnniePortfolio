@@ -35,4 +35,5 @@
    Please click [here](https://anniecancode.github.io/AnniePortfolio/) to access the deployed site.
 
   ## Screenshot
-  
+  ![image](https://user-images.githubusercontent.com/99180884/198263815-a7adcf2e-011f-4b6d-9f15-cba304a8b309.png)
+

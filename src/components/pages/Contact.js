@@ -15,9 +15,6 @@ const styles = {
         marginBottom: '10px',
         width: '50%'
     },
-    message: {
-        rows: 4
-    },
     button: {
         backgroundColor: 'rgb(19, 98, 135)',
         color: 'hsl(0, 0%, 100%)',
@@ -100,7 +97,7 @@ function Contact() {
                     type="email"
                     placeholder="email"
                 />
-                <input style = { styles.input }
+                <textarea style = { styles.input }
                     value={message}
                     name="message"
                     onChange={handleInputChange}

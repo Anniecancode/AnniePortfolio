@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/AnniePortfolio/static/css/main.567c3b81.css",
+    "main.js": "/AnniePortfolio/static/js/main.b1a6d2bd.js",
+    "static/media/IMG_7.png": "/AnniePortfolio/static/media/IMG_7.bc94db1898d368de1a25.png",
+    "static/media/IMG_3.jpg": "/AnniePortfolio/static/media/IMG_3.b2240e06b0702d1edd61.jpg",
+    "static/media/IMG_2.jpg": "/AnniePortfolio/static/media/IMG_2.f4c5ccb685568bba3907.jpg",
+    "static/media/IMG_5.jpg": "/AnniePortfolio/static/media/IMG_5.76e5940b37f355d3eb33.jpg",
+    "static/media/IMG_6.jpg": "/AnniePortfolio/static/media/IMG_6.cb22f009865ede31fa8e.jpg",
+    "static/media/IMG_1.jpg": "/AnniePortfolio/static/media/IMG_1.37f34b54ac3ae13805b3.jpg",
+    "static/media/Resume.pdf": "/AnniePortfolio/static/media/Resume.3ad239118df3d4bd7597.pdf",
+    "static/media/IMG_4.jpg": "/AnniePortfolio/static/media/IMG_4.4e317965b72c308585e2.jpg",
+    "index.html": "/AnniePortfolio/index.html",
+    "main.567c3b81.css.map": "/AnniePortfolio/static/css/main.567c3b81.css.map",
+    "main.b1a6d2bd.js.map": "/AnniePortfolio/static/js/main.b1a6d2bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.567c3b81.css",
+    "static/js/main.b1a6d2bd.js"
+  ]
+}

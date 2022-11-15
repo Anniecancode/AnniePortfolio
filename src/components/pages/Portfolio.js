@@ -26,22 +26,6 @@ function Portfolio() {
                         </a>        
                     </div>
                 </div>
-
-                <div className="section">
-                    <img src={require('../../assets/images/IMG_3.jpg')} alt="Weather Forecast Checker"
-                    className="picture"/>
-                    <div className='overlay'>
-                        <h4> Weather Forecast Checker </h4>                    
-                        <a href="https://anniecancode.github.io/Weather-Forecast-Checker"
-                        className='link'>
-                        Go To Page
-                        </a>                    
-                        <a href="https://github.com/Anniecancode/Weather-Forecast-Checker"
-                        className='link'>
-                        Github
-                        </a>        
-                    </div>
-                </div>
                 
                 <div className="section">
                     <img src={require('../../assets/images/IMG_4.jpg')} alt="Note Taker" 
@@ -101,6 +85,22 @@ function Portfolio() {
                         Go To Page
                         </a>                    
                         <a href="https://github.com/SamMarch/DnD-Character-Generator"
+                        className='link'>
+                        Github
+                        </a>        
+                    </div>
+                </div>
+
+                <div className="section">
+                    <img src={require('../../assets/images/IMG_11.jpg')} alt="Point of Sale" 
+                    className="picture"/>
+                    <div className='overlay'>
+                        <h4> P.O.S </h4>                    
+                        <a href="https://guarded-meadow-66403.herokuapp.com/"
+                        className='link'>
+                        Go To Page
+                        </a>                    
+                        <a href="https://github.com/Canon70D/POS"
                         className='link'>
                         Github
                         </a>        
